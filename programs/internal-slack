@@ -1,0 +1,19 @@
+#!/bin/sh
+set -eu
+
+internal_slack_cli="/Users/pedroantoniovillanuevajuarez/Developer/ai-employees/programs/internal-slack/bin/internal-slack.mjs"
+if [ "$#" -eq 0 ]; then
+  set -- inbox --unread-only true
+fi
+command="$1"
+shift
+
+case "$command" in
+  status|coworkers|send|inbox|read)
+    exec node "$internal_slack_cli" "$command" --as it-support "$@"
+    ;;
+  *)
+    echo "Usage: programs/internal-slack [status|coworkers|send|inbox|read] [options]" >&2
+    exit 2
+    ;;
+esac

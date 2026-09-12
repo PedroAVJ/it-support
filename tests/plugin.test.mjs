@@ -13,9 +13,11 @@ test("plugin manifests and IT Support contract agree", async () => {
   assert.equal(codex.name, "it-support");
   assert.equal(claude.name, codex.name);
   assert.equal(claude.version, codex.version);
-  assert.equal(codex.version, "0.2.1");
+  assert.equal(codex.version, "0.2.2");
   assert.equal(contract.role.key, "it-support");
   assert.equal(contract.role.thread_title, "👨🏻‍💻 IT Support");
   assert.equal(contract.role.runtime.model, "gpt-5.6-terra");
   assert.equal(contract.role.runtime.reasoning_effort, "medium");
+  await readFile(join(root, "PROGRAMS.md"), "utf8");
+  await readFile(join(root, "programs", "internal-slack"), "utf8");
 });
