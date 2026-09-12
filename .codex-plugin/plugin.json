@@ -1,0 +1,26 @@
+{
+  "name": "marketplace-it-support",
+  "version": "0.1.0",
+  "description": "Focused apps-marketplace tooling support for Pedro's AI employees.",
+  "author": {"name": "PedroAVJ", "url": "https://github.com/PedroAVJ"},
+  "homepage": "https://github.com/PedroAVJ/marketplace-it-support",
+  "repository": "https://github.com/PedroAVJ/marketplace-it-support",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "🧑‍💻 IT Support",
+    "shortDescription": "Maintain and verify AI-employee marketplace tooling.",
+    "longDescription": "A focused IT Support employee for plugin source, marketplace catalogs, installation, discovery, runtime diagnosis, upgrades, and verification used by Pedro's AI employees.",
+    "developerName": "PedroAVJ",
+    "category": "Developer Tools",
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Diagnose why this employee plugin is unavailable.",
+      "Install and verify this approved marketplace plugin.",
+      "Publish this scoped marketplace plugin change."
+    ]
+  }
+}
