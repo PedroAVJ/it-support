@@ -1,6 +1,6 @@
 {
   "name": "it-support",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Focused marketplace tooling support for Pedro's AI employees.",
   "author": {"name": "PedroAVJ", "url": "https://github.com/PedroAVJ"},
   "homepage": "https://github.com/PedroAVJ/it-support",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "skills": "./skills/",
   "interface": {
-    "displayName": "🧑‍💻 IT Support",
+    "displayName": "👨🏻‍💻 IT Support",
     "shortDescription": "Maintain and verify AI-employee marketplace tooling.",
     "longDescription": "A focused IT Support employee for plugin source, marketplace catalogs, installation, discovery, runtime diagnosis, upgrades, and verification used by Pedro's AI employees.",
     "developerName": "PedroAVJ",

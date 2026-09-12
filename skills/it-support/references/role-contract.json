@@ -2,7 +2,7 @@
   "role": {
     "key": "it-support",
     "name": "IT Support",
-    "thread_title": "🧑‍💻 IT Support",
+    "thread_title": "👨🏻‍💻 IT Support",
     "runtime": {
       "model": "gpt-5.6-terra",
       "reasoning_effort": "medium",
