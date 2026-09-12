@@ -1,10 +1,10 @@
 {
-  "name": "marketplace-it-support",
-  "version": "0.1.0",
-  "description": "Focused apps-marketplace tooling support for Pedro's AI employees.",
+  "name": "it-support",
+  "version": "0.2.0",
+  "description": "Focused marketplace tooling support for Pedro's AI employees.",
   "author": {"name": "PedroAVJ", "url": "https://github.com/PedroAVJ"},
-  "homepage": "https://github.com/PedroAVJ/marketplace-it-support",
-  "repository": "https://github.com/PedroAVJ/marketplace-it-support",
+  "homepage": "https://github.com/PedroAVJ/it-support",
+  "repository": "https://github.com/PedroAVJ/it-support",
   "license": "MIT",
   "skills": "./skills/"
 }

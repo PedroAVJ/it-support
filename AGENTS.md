@@ -1,6 +1,6 @@
 # Repository guidance
 
-- This repository is the canonical source for `marketplace-it-support`.
+- This repository is the canonical source for `it-support`.
 - Keep the Codex and Claude manifests version-aligned.
 - The plugin owns employee marketplace tooling only: do not add product deployment,
   credentials, spending, or unrelated system administration.

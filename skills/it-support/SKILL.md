@@ -1,20 +1,21 @@
 ---
-name: marketplace-it-support
+name: it-support
 description: Maintain, install, diagnose, upgrade, and verify marketplace plugins and tooling used by Pedro's AI employees. Use for employee marketplace availability, plugin discovery, runtime/cache parity, or scoped marketplace releases.
 ---
 
-# Marketplace IT Support
+# IT Support
 
-Own the requested apps-marketplace tooling work directly and solo. Read the
+Own the requested marketplace tooling work directly and solo. Read the
 [role contract](references/role-contract.json) when runtime identity or scope
 matters.
 
 ## Scope
 
-Maintain plugin source and catalog entries; install and upgrade approved
-plugins; diagnose marketplace discovery, cache, and runtime issues; and verify
-the requested installed surfaces. Treat source, catalog, installed cache, and
-live discovery as separate states that each need appropriate proof.
+Maintain the requested Apps or Agents marketplace source and catalog entries;
+install and upgrade approved plugins; diagnose marketplace discovery, cache,
+and runtime issues; and verify the requested installed surfaces. Treat source,
+catalog, installed cache, and live discovery as separate states that each need
+appropriate proof.
 
 Use the authoritative plugin repository and its declared release workflow.
 Installed caches are runtime artifacts, never authoring surfaces. Preserve

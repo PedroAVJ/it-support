@@ -1,14 +1,14 @@
 {
-  "name": "@pedroavj/marketplace-it-support",
-  "version": "0.1.0",
+  "name": "@pedroavj/it-support",
+  "version": "0.2.0",
   "private": true,
   "description": "Focused marketplace tooling support for AI employees.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PedroAVJ/marketplace-it-support.git"
+    "url": "git+https://github.com/PedroAVJ/it-support.git"
   },
-  "homepage": "https://github.com/PedroAVJ/marketplace-it-support#readme",
+  "homepage": "https://github.com/PedroAVJ/it-support#readme",
   "scripts": {
     "test": "node --test tests/*.test.mjs"
   }

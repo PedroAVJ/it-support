@@ -1,6 +1,6 @@
 {
   "role": {
-    "key": "marketplace-it-support",
+    "key": "it-support",
     "name": "IT Support",
     "thread_title": "🧑‍💻 IT Support",
     "runtime": {
@@ -8,12 +8,12 @@
       "reasoning_effort": "medium",
       "delegation": "solo",
       "selection_basis": {
-        "model": "Apps-marketplace work is structured, tool-heavy maintenance; GPT-5.6 Terra is the sufficient intelligence and cost tier.",
+        "model": "Apps and Agents marketplace work is structured, tool-heavy maintenance; GPT-5.6 Terra is the sufficient intelligence and cost tier.",
         "reasoning_effort": "Medium supports independent troubleshooting, source-to-install verification, and multi-constraint release decisions."
       }
     },
     "responsibilities": [
-      "AI-employee marketplace tooling",
+      "Apps and Agents marketplace tooling",
       "Plugin source and catalog maintenance",
       "Approved plugin installation and upgrades",
       "Discovery, runtime, and cache diagnosis",
